@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/id/2027083595/photo/dark-black-ceramic-wall-chequered-and-floor-tiles-mosaic-background-in-bathroom-design.jpg?s=1024x1024&w=is&k=20&c=f3obPFz0xcYrojM0BcKh44Pk1TTY1v_L9wQaNfeRDD0=);
+}
+h1{
+    color:rgb(224, 7, 43) ;
+    font-size: 45px;
+}
+a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}

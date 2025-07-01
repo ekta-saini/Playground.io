@@ -1,0 +1,197 @@
+#indicator {
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+  
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+  
+.hangstand {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 10px;
+    top: 50px;
+    left: 40px;
+    position: relative;
+}
+  
+.buttons-parent {
+    width: 50%;
+    padding-left: 35%;
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+  
+button {
+    background-color: #fdc500;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 5px 8px;
+    padding: 6px 10px;
+}
+  
+button:hover {
+    background-color: #399a46;
+    cursor: pointer;
+}
+  
+body {
+  background-image: url(Background1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}  
+span {
+  display: none;
+}
+  
+  /* .display- */
+  
+p{
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid rgb(243, 243, 243);
+    height: 40px;
+    width: 40px;
+}
+  
+.blanks_parent {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: transparent grey;
+}
+  
+.pinkBtn,
+.pinkBtn:hover {
+    background-color: rgb(202, 138, 201);
+    color: white;
+}
+  
+.blueBtn,
+.blueBtn:hover {
+    background-color: rgb(96, 144, 195);
+    color: white;
+}
+  
+.class-1 {
+    height: 10px;
+    width: 50%;
+    left: 30px;
+    background: white;
+    position: absolute;
+    bottom: 17%;
+}
+  
+.class-2 {
+    height: 10px;
+    width: 60vh;
+    top: 39vh;
+    background: white;
+    position: absolute;
+    right: 300px;
+    transform: rotate(90deg);
+}
+  
+.class-3 {
+    height: 10px;
+    width: 50%;
+    left: 30px;
+    background: white;
+    position: absolute;
+    top: 11%;
+}
+.class-4 {
+    height: 6px;
+    width: 10vh;
+    top: 15vh;
+    background: white;
+    position: absolute;
+    right: 328px;
+    transform: rotate(90deg);
+}
+  
+.class-5 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-color: white;
+    left: 210px;
+    top: 113px;
+    border-radius: 50%;
+}
+  
+.class-6 {
+    height: 10px;
+    width: 20vh;
+    top: 35vh;
+    background: white;
+    position: absolute;
+    right: 290px;
+    transform: rotate(90deg);
+}
+  
+.class-7 {
+    height: 10px;
+    width: 10vh;
+    top: 30vh;
+    background: white;
+    position: absolute;
+    right: 360px;
+    transform: rotate(20deg);
+}
+.class-8 {
+    height: 10px;
+    width: 10vh;
+    top: 30vh;
+    background: white;
+    position: absolute;
+    right: 300px;
+    transform: rotate(-20deg);
+}
+.class-9 {
+    height: 10px;
+    width: 10vh;
+    top: 47vh;
+    background: white;
+    position: absolute;
+    right: 294px;
+    transform: rotate(-150deg);
+}
+.class-10 {
+    height: 10px;
+    width: 10vh;
+    top: 47vh;
+    background: white;
+    position: absolute;
+    right: 350px;
+    transform: rotate(150deg);
+}
+  
+.display-none {
+    display: none;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
