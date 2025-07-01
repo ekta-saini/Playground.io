@@ -15,7 +15,7 @@ A fun collection of classic browser games built with HTML, CSS, and JavaScript. 
 ## How to Play
 
 1. Clone this repository
-2. Open `homePage.html` in your web browser
+2. Open `playground.html` in your web browser
 3. Click on any game icon to start playing
 4. Use the Exit button to return to the home page
 
@@ -41,7 +41,7 @@ To run this project locally:
 1. Clone the repository
 2. Open in VS Code
 3. Install "Live Server" extension
-4. Right-click on `homePage.html` and select "Open with Live Server"
+4. Right-click on `playground.html` and select "Open with Live Server"
 
 ## Contributing
 
